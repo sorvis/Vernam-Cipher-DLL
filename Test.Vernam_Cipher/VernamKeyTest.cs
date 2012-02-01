@@ -71,14 +71,12 @@ namespace Test.Vernam_Cipher
         [DeploymentItem("Vernam_Cipher.dll")]
         public void ToBytesTest()
         {
-            PrivateObject param0 = null; // TODO: Initialize to an appropriate value
-            VernamKey_Accessor target = new VernamKey_Accessor(param0); // TODO: Initialize to an appropriate value
-            string text = string.Empty; // TODO: Initialize to an appropriate value
-            byte[] expected = null; // TODO: Initialize to an appropriate value
+            VernamKey_Accessor target = new VernamKey_Accessor("key");
+            string text = "a new";
+            byte[] expected = { 0x61, 0x20, 0x6e,0x65, 0x77 };
             byte[] actual;
             actual = target.ToBytes(text);
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
+            CollectionAssert.AreEqual(expected, actual);
         }
     }
 }
