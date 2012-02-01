@@ -1,0 +1,9 @@
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\bin\Debug\Test.Vernam_Cipher.dll
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\bin\Debug\Test.Vernam_Cipher.pdb
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\bin\Debug\Vernam_Cipher.dll
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\bin\Debug\Vernam_Cipher.pdb
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\bin\Debug\Vernam_Cipher_Accessor.dll
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\bin\Debug\Vernam_Cipher_Accessor.pdb
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\obj\Debug\ResolveAssemblyReference.cache
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\obj\Debug\Test.Vernam_Cipher.dll
+\\gc-ironcase\mydocs\sworvis\documents\visual studio 2010\Projects\Vernam_Cipher\Test.Vernam_Cipher\obj\Debug\Test.Vernam_Cipher.pdb
