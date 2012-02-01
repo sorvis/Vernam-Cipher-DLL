@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vernam_Cipher", "Vernam_Cipher\Vernam_Cipher.csproj", "{89114DC5-63DD-41C6-B20D-4210E21DBC14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Vernam_Cipher", "Test.Vernam_Cipher\Test.Vernam_Cipher.csproj", "{00E50D15-CB51-4AB7-BD46-406CADCDCF5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED6465B6-70CD-4680-BC7D-A77DB3AD4344}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Vernam_Cipher.vsmdi = Vernam_Cipher.vsmdi
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Vernam_Cipher.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +25,10 @@ Global
 		{89114DC5-63DD-41C6-B20D-4210E21DBC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89114DC5-63DD-41C6-B20D-4210E21DBC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89114DC5-63DD-41C6-B20D-4210E21DBC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E50D15-CB51-4AB7-BD46-406CADCDCF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E50D15-CB51-4AB7-BD46-406CADCDCF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E50D15-CB51-4AB7-BD46-406CADCDCF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E50D15-CB51-4AB7-BD46-406CADCDCF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

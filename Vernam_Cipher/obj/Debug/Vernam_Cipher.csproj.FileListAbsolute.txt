@@ -1,0 +1,5 @@
+c:\users\steven\documents\visual studio 2010\Projects\Vernam_Cipher\Vernam_Cipher\bin\Debug\Vernam_Cipher.dll
+c:\users\steven\documents\visual studio 2010\Projects\Vernam_Cipher\Vernam_Cipher\bin\Debug\Vernam_Cipher.pdb
+c:\users\steven\documents\visual studio 2010\Projects\Vernam_Cipher\Vernam_Cipher\obj\Debug\ResolveAssemblyReference.cache
+c:\users\steven\documents\visual studio 2010\Projects\Vernam_Cipher\Vernam_Cipher\obj\Debug\Vernam_Cipher.dll
+c:\users\steven\documents\visual studio 2010\Projects\Vernam_Cipher\Vernam_Cipher\obj\Debug\Vernam_Cipher.pdb
