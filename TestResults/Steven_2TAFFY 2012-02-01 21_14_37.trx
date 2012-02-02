@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="046e0325-c646-493c-87dd-8cd807a8c247" name="Steven@2TAFFY 2012-02-01 21:14:37" runUser="2taffy\Steven" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ae084972-7a48-49a6-9636-c426b007afee">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steven_2TAFFY 2012-02-01 21_14_37">
+      <DeploymentItem filename="c:\users\steven\documents\visual studio 2010\Projects\Vernam_Cipher\Vernam_Cipher\bin\Debug\Vernam_Cipher.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-01T21:14:37.8268047-05:00" queuing="2012-02-01T21:14:40.9801250-05:00" start="2012-02-01T21:14:41.8238750-05:00" finish="2012-02-01T21:15:43.3551250-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="6" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="2TAFFY" outcome="Error" timestamp="2012-02-01T21:15:43.3521953-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="encryptTest" storage="c:\users\steven\documents\visual studio 2010\projects\vernam_cipher\test.vernam_cipher\bin\debug\test.vernam_cipher.dll" id="27dd4a91-c6e6-546a-5514-4e97bbfb7d42">
+      <Execution id="10da1363-c774-48fa-9eba-ff0fc208d351" />
+      <TestMethod codeBase="c:/users/steven/documents/visual studio 2010/Projects/Vernam_Cipher/Test.Vernam_Cipher/bin/Debug/Test.Vernam_Cipher.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Vernam_Cipher.VernamKeyTest, Test.Vernam_Cipher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="encryptTest" />
+    </UnitTest>
+    <UnitTest name="BytesToStringTest" storage="c:\users\steven\documents\visual studio 2010\projects\vernam_cipher\test.vernam_cipher\bin\debug\test.vernam_cipher.dll" id="24ced0ee-2afc-d307-c904-09722f463065">
+      <DeploymentItems>
+        <DeploymentItem filename="Vernam_Cipher.dll" />
+      </DeploymentItems>
+      <Execution id="0878dd66-c0f0-4e19-975a-d23c1501fd2a" />
+      <TestMethod codeBase="c:/users/steven/documents/visual studio 2010/Projects/Vernam_Cipher/Test.Vernam_Cipher/bin/Debug/Test.Vernam_Cipher.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Vernam_Cipher.ByteToolsTest, Test.Vernam_Cipher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BytesToStringTest" />
+    </UnitTest>
+    <UnitTest name="decodeTest" storage="c:\users\steven\documents\visual studio 2010\projects\vernam_cipher\test.vernam_cipher\bin\debug\test.vernam_cipher.dll" id="f38b1980-3bec-814d-ac85-043564dbf42d">
+      <Execution id="8f184b36-7329-4bc6-ad96-04b7abde2561" />
+      <TestMethod codeBase="c:/users/steven/documents/visual studio 2010/Projects/Vernam_Cipher/Test.Vernam_Cipher/bin/Debug/Test.Vernam_Cipher.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Vernam_Cipher.VernamKeyTest, Test.Vernam_Cipher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="decodeTest" />
+    </UnitTest>
+    <UnitTest name="XOR_byteArrayTest" storage="c:\users\steven\documents\visual studio 2010\projects\vernam_cipher\test.vernam_cipher\bin\debug\test.vernam_cipher.dll" id="e0494364-7c7e-611b-b166-7a5f9068d1cc">
+      <DeploymentItems>
+        <DeploymentItem filename="Vernam_Cipher.dll" />
+      </DeploymentItems>
+      <Execution id="e9b8d0a7-0af5-406e-8c3e-803d3bd6f140" />
+      <TestMethod codeBase="c:/users/steven/documents/visual studio 2010/Projects/Vernam_Cipher/Test.Vernam_Cipher/bin/Debug/Test.Vernam_Cipher.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Vernam_Cipher.ByteToolsTest, Test.Vernam_Cipher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XOR_byteArrayTest" />
+    </UnitTest>
+    <UnitTest name="buildKeyTest" storage="c:\users\steven\documents\visual studio 2010\projects\vernam_cipher\test.vernam_cipher\bin\debug\test.vernam_cipher.dll" id="a0c57336-8487-8e25-3bed-af427e1cb3c8">
+      <DeploymentItems>
+        <DeploymentItem filename="Vernam_Cipher.dll" />
+      </DeploymentItems>
+      <Execution id="cf28bc36-bed0-40df-b147-0950240d365f" />
+      <TestMethod codeBase="c:/users/steven/documents/visual studio 2010/Projects/Vernam_Cipher/Test.Vernam_Cipher/bin/Debug/Test.Vernam_Cipher.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Vernam_Cipher.VernamKeyTest, Test.Vernam_Cipher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="buildKeyTest" />
+    </UnitTest>
+    <UnitTest name="StringToBytesTest" storage="c:\users\steven\documents\visual studio 2010\projects\vernam_cipher\test.vernam_cipher\bin\debug\test.vernam_cipher.dll" id="4ec9b746-38ca-5ecc-771f-e11dcf5b04b8">
+      <DeploymentItems>
+        <DeploymentItem filename="Vernam_Cipher.dll" />
+      </DeploymentItems>
+      <Execution id="43bc8fca-cb79-4993-a41f-7032b04b09b7" />
+      <TestMethod codeBase="c:/users/steven/documents/visual studio 2010/Projects/Vernam_Cipher/Test.Vernam_Cipher/bin/Debug/Test.Vernam_Cipher.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.Vernam_Cipher.ByteToolsTest, Test.Vernam_Cipher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringToBytesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24ced0ee-2afc-d307-c904-09722f463065" executionId="0878dd66-c0f0-4e19-975a-d23c1501fd2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27dd4a91-c6e6-546a-5514-4e97bbfb7d42" executionId="10da1363-c774-48fa-9eba-ff0fc208d351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec9b746-38ca-5ecc-771f-e11dcf5b04b8" executionId="43bc8fca-cb79-4993-a41f-7032b04b09b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0c57336-8487-8e25-3bed-af427e1cb3c8" executionId="cf28bc36-bed0-40df-b147-0950240d365f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0494364-7c7e-611b-b166-7a5f9068d1cc" executionId="e9b8d0a7-0af5-406e-8c3e-803d3bd6f140" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f38b1980-3bec-814d-ac85-043564dbf42d" executionId="8f184b36-7329-4bc6-ad96-04b7abde2561" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0878dd66-c0f0-4e19-975a-d23c1501fd2a" testId="24ced0ee-2afc-d307-c904-09722f463065" testName="BytesToStringTest" computerName="2TAFFY" duration="00:00:00.0770233" startTime="2012-02-01T21:14:42.7613750-05:00" endTime="2012-02-01T21:14:46.7135235-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0878dd66-c0f0-4e19-975a-d23c1501fd2a">
+    </UnitTestResult>
+    <UnitTestResult executionId="10da1363-c774-48fa-9eba-ff0fc208d351" testId="27dd4a91-c6e6-546a-5514-4e97bbfb7d42" testName="encryptTest" computerName="2TAFFY" duration="00:00:56.5859375" startTime="2012-02-01T21:14:46.7682110-05:00" endTime="2012-02-01T21:15:43.3541485-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10da1363-c774-48fa-9eba-ff0fc208d351">
+    </UnitTestResult>
+    <UnitTestResult executionId="43bc8fca-cb79-4993-a41f-7032b04b09b7" testId="4ec9b746-38ca-5ecc-771f-e11dcf5b04b8" testName="StringToBytesTest" computerName="2TAFFY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43bc8fca-cb79-4993-a41f-7032b04b09b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf28bc36-bed0-40df-b147-0950240d365f" testId="a0c57336-8487-8e25-3bed-af427e1cb3c8" testName="buildKeyTest" computerName="2TAFFY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf28bc36-bed0-40df-b147-0950240d365f">
+    </UnitTestResult>
+    <UnitTestResult executionId="e9b8d0a7-0af5-406e-8c3e-803d3bd6f140" testId="e0494364-7c7e-611b-b166-7a5f9068d1cc" testName="XOR_byteArrayTest" computerName="2TAFFY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9b8d0a7-0af5-406e-8c3e-803d3bd6f140">
+    </UnitTestResult>
+    <UnitTestResult executionId="8f184b36-7329-4bc6-ad96-04b7abde2561" testId="f38b1980-3bec-814d-ac85-043564dbf42d" testName="decodeTest" computerName="2TAFFY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f184b36-7329-4bc6-ad96-04b7abde2561">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -50,6 +50,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ByteToolsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VernamKeyTest.cs" />
   </ItemGroup>

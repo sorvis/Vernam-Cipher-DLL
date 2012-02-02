@@ -63,20 +63,67 @@ namespace Test.Vernam_Cipher
         //
         #endregion
 
-
         /// <summary>
-        ///A test for ToBytes
+        ///A test for buildKey
         ///</summary>
         [TestMethod()]
         [DeploymentItem("Vernam_Cipher.dll")]
-        public void ToBytesTest()
+        public void buildKeyTest()
         {
+            // test shorter key
             VernamKey_Accessor target = new VernamKey_Accessor("key");
-            string text = "a new";
-            byte[] expected = { 0x61, 0x20, 0x6e,0x65, 0x77 };
-            byte[] actual;
-            actual = target.ToBytes(text);
-            CollectionAssert.AreEqual(expected, actual);
+            string expected = "ke";
+            string actual;
+            actual = target.buildKey(2);
+            Assert.AreEqual(expected, actual);
+
+            // test equal key
+            expected = "key";
+            actual = target.buildKey(3);
+            Assert.AreEqual(expected, actual);
+
+            // test bigger key
+            expected = "keyke";
+            actual = target.buildKey(5);
+            Assert.AreEqual(expected, actual);
+        }
+
+        /// <summary>
+        ///A test for encrypt
+        ///</summary>
+        [TestMethod()]
+        public void encryptTest()
+        {
+            string Key = "something";
+            VernamKey target = new VernamKey(Key);
+            string text = "this is a hidden text";
+            string expected = "\a\aTNS\a\r\aN";
+            string actual;
+            actual = target.encrypt(text);
+            Assert.AreEqual(expected, actual);
+
+            // test that there is a difference between keys
+            Key = "a different key";
+            target = new VernamKey(Key);
+            text = "this is a hidden text";
+            expected = "\a\aTNS\a\r\aN";
+            actual = target.encrypt(text);
+            Assert.AreNotEqual(expected, actual);
+        }
+
+        /// <summary>
+        ///A test for decode
+        ///</summary>
+        [TestMethod()]
+        public void decodeTest()
+        {
+            string Key = "something";
+            VernamKey target = new VernamKey(Key);
+            string text = "\a\aTNS\a\r\aN";
+            string expected = "this is a hidden text";
+            string actual;
+            actual = target.decode(text);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
