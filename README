@@ -1,0 +1,5 @@
+This is an implementation of the Vernam Cipher in C#.
+
+Included are unit tests which prove the functionality of the dll.
+
+One important note is that this program does not truly do the Vernam cipher in that if the key is to short it will simply repeate it to match the length of the message. To have a truely secure message the key should be the same length or longer then the message and never be used again.
